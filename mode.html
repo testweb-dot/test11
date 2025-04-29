@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../TestResearch/mode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mode</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-nav">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                              <div class="numbertext">1 / 4</div>
+                              <img src="https://zandokh.com/image/cache/catalog/products/2025-03/22225011152/ZANDO2802252042-cr-450x672.jpg" style="width:50%" height="500px">
+                              <div class="text">Caption Text</div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">2 / 4</div>
+                              <img src="https://zandokh.com/image/cache/catalog/products/2025-03/22225011152/ZANDO2802252155-cr-450x672.jpg" style="width:50%"  height="500px">
+                              <div class="text">Caption Two</div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">3 / 4</div>
+                              <img src="https://zandokh.com/image/cache/catalog/products/2025-03/22225011155/ZANDO2202250986-cr-450x672.jpg" style="width:50%"  height="500px">
+                              <div class="text">Caption Three</div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 4</div>
+                                <img src="https://zandokh.com/image/cache/catalog/products/2025-03/22225011155/ZANDO2202250959-cr-450x672.jpg" style="width:50%"  height="500px">
+                                <div class="text">Caption Four</div>
+                              </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1)">❯</a>
+                            <a class="next" onclick="plusSlides(1)">❮</a>
+                            
+                            </div>
+                            <br>
+                            
+                            <div style="margin-left: -10px;">
+                              <span class="dot" onclick="currentSlide(1)"></span> 
+                              <span class="dot" onclick="currentSlide(2)"></span> 
+                              <span class="dot" onclick="currentSlide(3)"></span> 
+                              <span class="dot" onclick="currentSlide(4)"></span> 
+                            </div>
+                            
+                            <script>
+                            let slideIndex = 1;
+                            showSlides(slideIndex);
+                            
+                            function plusSlides(n) {
+                              showSlides(slideIndex += n);
+                            }
+                            
+                            function currentSlide(n) {
+                              showSlides(slideIndex = n);
+                            }
+                            
+                            function showSlides(n) {
+                              let i;
+                              let slides = document.getElementsByClassName("mySlides");
+                              let dots = document.getElementsByClassName("dot");
+                              if (n > slides.length) {slideIndex = 1}    
+                              if (n < 1) {slideIndex = slides.length}
+                              for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                              }
+                              for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                              }
+                              slides[slideIndex-1].style.display = "block";  
+                              dots[slideIndex-1].className += " active";
+                            }
+                            </script>
+                    </div>
+                    <div class="col-6">
+                        <div class="row-1">
+                            <div class="text-1">
+                                <h2 class="txt-t">Cropped Tops</h2>
+                                <p class="txt-2">6.69$</p>
+                                <p class="txt-2">3 Color Avilables</p>
+                            </div>
+                            <div class="icon">
+                            <i class="fa-solid fa-recycle"></i>
+                            <i class="fa-solid fa-envelope"></i>
+                            </div>
+                        </div>
+                           <div class="row-1">
+                                <div class="col-4">
+                                    <img src="https://zandokh.com/image/cache/catalog/products/2025-03/22225011152/ZANDO2802252042-cr-450x672.jpg" alt="" width="200px">
+                                </div>
+                                <div class="col-4">
+                                    <img src="https://zandokh.com/image/catalog/products/2025-03/22225011152/ZANDO2802252110.jpg" alt="" width="200px">
+                                </div>
+                                <div class="col-4">
+                                    <img src="https://zandokh.com/image/catalog/products/2025-03/22225011152/ZANDO2802252110.jpg" alt="" width="200px">
+                                </div>
+                            </div>
+                            <h1 class="txt-3">Size</h1>
+                            <div class="size">
+                                <button class="btn">XS</button>
+                                <button class="btn">S</button>
+                                <button class="btn">M</button>
+                                <button class="btn">L</button>
+                                <button class="btn">XL</button>
+                            </div>
+                            <div class="logo">
+                                <div class="click">
+                                    <i class="fa-regular fa-square logos"></i>
+                                    <h1 class="txt-3"> Model is 161 cm tall/ 43 kg weight and is wearign sizeXS.</h1>
+                                </div>
+                            </div>
+                            <h1>Qty</h1>
+                            <div class="size">
+                            <button class="btn">-</button>
+                            <button class="btn">1</button>
+                            <button class="btn">+</button></div>
+                            <h1 class="txt-3">22225011152</h1>
+                            <h1 class="txt-3">Regular fitted top featuring sleeveless.</h1>
+                            <div class="b">
+                            <a href="" class="but">Add to Bag</a></div>
+                            <div class="top"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <footer>
+      <div class="final-text">
+          <div class="final-body">
+              <div class="final-row">
+                  <div class="final-col-3">
+                      <h1 class="txt-1">TEN11 APP</h1>
+                      <div class="ph">
+                          <i class="fa-solid fa-mobile-screen-button"></i>
+                          <h1 class="txt">IOS App</h1>
+                      </div>
+                      <div class="ph-1">
+                          <i class="fa-solid fa-mobile-screen-button"></i>
+                          <h1 class="txt">ANDROI App</h1>
+                      </div>
+                  </div>
+                  <div class="final-col-3">
+                      <h1 class="txt-1">Follow us</h1>
+                      <div class="ph">
+                          <i class="fa-brands fa-facebook"></i>
+                          <h1 class="tx2">Facebook</h1>
+                      </div>
+                      <div class="ph">
+                          <i class="fa-brands fa-instagram"></i>
+                          <h1 class="tx2">Instagram</h1>
+                      </div>
+                      <div class="ph">
+                          <i class="fa-brands fa-tiktok"></i>
+                          <h1 class="tx2">Tik Tok us</h1>
+                      </div>
+                      <div class="ph">
+                          <i class="fa-brands fa-telegram"></i>
+                          <h1 class="tx2">Telegrams</h1>
+                      </div>
+                  </div>
+                  <div class="final-col-3">
+                      <h1 class="txt-1">Customer Services</h1>
+                      <div class="ph">
+                        <i class="fa-solid fa-circle-question solid-icon"></i>
+                          <h1 class="tx2">Online exchange us</h1>
+                      </div>
+                      <div class="ph">
+                          <i class="fa-solid fa-shield-halved"></i>
+                          <h1 class="tx2">Privacy Policys </h1>
+                      </div>
+                      <div class="ph">
+                          <i class="fa-solid fa-comment-dots"></i>
+                          <h1 class="tx2">FAQs & guides</h1>
+                      </div>
+
+                  </div>
+                  <div class="final-col-5">
+                      <div class="text-5">
+                      <h1 class="txt-4">We Accept</h1></div>
+                           <div class="card">
+                          <img src="https://www.ababank.com/fileadmin/user_upload/Payment_Cards/Debit/MC_Debit.png" alt="" >
+                          <img src="https://static-00.iconduck.com/assets.00/visa-icon-2048x1313-o6hi8q5l.png" alt="">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEsc02ToGGTTAGB6EJcLgsVMNjoGp6iGfMQ&s" alt="">
+                          <img src="https://static-00.iconduck.com/assets.00/unionpay-icon-512x327-e2970to6.png" alt="">
+                          <img src="https://www.acledabank.com.kh/kh/assets/image/card-consumer.jpg" alt="">
+                          </div>
+                          
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    
+</body>
+</html>

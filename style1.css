@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Big Shoulders Inline", sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(227, 214, 214);
+    box-shadow: 2px 2px 5px black;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+ .navbar-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-items{
+    list-style: none;
+    text-shadow: 2px 2px 3px black;
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    padding: 16px 20px;
+    display: block;
+}
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: blue;
+}
+.card{
+    width: 100%;
+    height: 30%;
+}
+.card .container{
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+}
+.card-body{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.card-text{
+    width: 70%;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12rem;
+}
+.row{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.col-4{
+    width: 20%;
+    height: 30%;
+    gap: 1rem;
+}
+.txt{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.card-1{
+    font-size: 25px;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: black;
+}
+.txt-1{
+    margin-top: 30px;
+    
+}
+.txt-2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.btns{
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid blue;
+    background-color: blue;
+}
+.btns:hover{
+    background-color: white;
+    color: blue;
+}
+.final{
+    width: 100%;
+    margin-top: 2rem;
+}
+.final-row{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.final-col-3{
+    width: 8%;
+    height: 30%;
+    gap: 1rem;
+}
